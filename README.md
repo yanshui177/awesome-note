@@ -1,6 +1,3 @@
-
-[1.3](#jump)
-
 # About #
 
 Daily Internet information Collection.
