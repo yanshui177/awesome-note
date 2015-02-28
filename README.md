@@ -38,4 +38,4 @@ Daily Internet information Collection.
 - **Scientific.Net** : http://www.scientific.net/
 
 ## Books ##
-Link : https://github.com/finlay-liu/InfoRecord/Books.md
+Link : https://github.com/finlay-liu/InfoRecord/blob/master/Books.md
