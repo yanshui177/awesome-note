@@ -17,4 +17,10 @@ Daily Internet information Collection.
 - **九度OJ** : http://ac.jobdu.com/index.php
 
 ### Scholar Site ###
+- **小木虫** : http://emuch.net/
+- **中国科技论文在线** : http://www.paper.edu.cn/
 - **AMiner** : http://aminer.org/
+- **Google Scholar** : http://scholar.google.com/
+- **arXiv.org** : http://arxiv.org/
+- **Scientific.Net** : http://www.scientific.net/
+
