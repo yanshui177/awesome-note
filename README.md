@@ -26,7 +26,7 @@ Daily Internet information Collection.
 - **九度OJ** : http://ac.jobdu.com/index.php
 - **LeetCode** : https://oj.leetcode.com
 
-## Scholar## 
+## Scholar ## 
 - **小木虫** : http://emuch.net/
 - **中国科技论文在线** : http://www.paper.edu.cn/
 - **AMiner** : http://aminer.org/
