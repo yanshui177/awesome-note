@@ -2,18 +2,18 @@
 
 Daily Internet information Collection.
 
-## Link ##
+# Link #
 
-### C & c++	###
+## C & c++	##
 - **Cprogramming.com** : http://www.cprogramming.com/
 
-### Java ###
+## Java ##
 - **Java Examples** : http://www.javased.com/
 
-### LaTeX ###
+## LaTeX ##
 - **在线 LaTeX 公式编辑器** : http://www.codecogs.com/latex/eqneditor.php
 
-### MOOC ###
+## MOOC ##
 - **Coursera** : https://www.coursera.org/   
 - **Stanford Online** :  http://online.stanford.edu/
 - **Codecademy** : http://www.codecademy.com/
@@ -22,11 +22,11 @@ Daily Internet information Collection.
 - **Sina TED** : http://open.sina.com.cn/school/id_57/
 - **课程图谱** : http://coursegraph.com/
 
-### OJ Exercise ###
+## OJ Exercise ##
 - **九度OJ** : http://ac.jobdu.com/index.php
 - **LeetCode** : https://oj.leetcode.com
 
-### Scholar Site ### 
+## Scholar## 
 - **小木虫** : http://emuch.net/
 - **中国科技论文在线** : http://www.paper.edu.cn/
 - **AMiner** : http://aminer.org/
@@ -34,5 +34,5 @@ Daily Internet information Collection.
 - **arXiv.org** : http://arxiv.org/
 - **Scientific.Net** : http://www.scientific.net/
 
-## Books ##
+# Books #
 Link : https://github.com/finlay-liu/InfoRecord/blob/master/Books.md
