@@ -1,4 +1,4 @@
-## qsort 例子
+## qsort 函数说明
 
 qsort包含在<stdlib.h>头文件中，此函数根据你给的比较条件进行快速排序，通过指针移动实现排序。排序之后的结果仍然放在原数组中。使用qsort函数必须自己写一个比较函数。
 
@@ -23,9 +23,10 @@ The function does not return any value, but modifies the content of the array po
 - 定义比较函数
 - 调用qsort
 
-## 1. char 字符排序
+### 排序例子
 
-``` C
+- char 字符排序
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -47,8 +48,8 @@ int main()
 	return 0;
 }
 ```
-## 2. int值排序
 
+- int值排序
 ``` C
 #include <stdio.h>
 #include <stdlib.h>
@@ -71,8 +72,7 @@ int main()
 	return 0;
 }
 ```
-## 3. double值排序
-
+- double值排序
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -96,8 +96,7 @@ int main()
 }
 ```
 
-## 4. struct结构体排序
-
+- struct结构体排序
 ```C
 /* qsort example */
 #include <stdio.h>

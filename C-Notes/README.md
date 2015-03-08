@@ -1,8 +1,5 @@
 ## C语言经典用例
 
-1. 使用qsort进行排序
-
-2. 分割字符串
-
-3. ctype.h 头文件函数介绍 : https://github.com/finlay-liu/InfoRecord/blob/master/C-Notes/ctype.h.md
-4. string.h 头文件函数介绍 ： https://github.com/finlay-liu/InfoRecord/blob/master/C-Notes/string.h.md
+1. qsort函数介绍 ： https://github.com/finlay-liu/InfoRecord/blob/master/C-Notes/qsort.md
+2. ctype.h 头文件函数介绍 : https://github.com/finlay-liu/InfoRecord/blob/master/C-Notes/ctype.h.md
+3. string.h 头文件函数介绍 ： https://github.com/finlay-liu/InfoRecord/blob/master/C-Notes/string.h.md
