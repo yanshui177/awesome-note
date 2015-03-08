@@ -1,7 +1,7 @@
 ## C库函数手册(string.h)
 ### 分类函数,所在函数库为string.h
 
-### strcpy 
+### 1. strcpy 
 - 函数名 : ***strcpy***
 - 功 能 : 拷贝一个字符串到另一个
 - 用 法 : **char *strcpy(char *destin, char *source)**;
@@ -20,7 +20,7 @@ int main(void)
 }
 ```
 
-### strncpy
+### 2. strncpy
 - 函数名 : ***strncpy***
 - 功能 ： 将字符串src中最多n个字符复制到字符数组dest中(它并不像strcpy一样遇到NULL才停止复制，而是等凑够n个字符才开始复制），返回指向dest的指针
 - 原型 ： **char * strncpy(char *dest, char *src, size_t n)**; 　
@@ -39,10 +39,10 @@ int main(void)
 }
 ```
 
-### strcat
+### 3. strcat
 - 函数名 : ***strcat***
-- 功 能 : 字符串拼接函数
-- 用 法 : **char *strcat(char *destin, char *source)**;
+- 功能 : 字符串拼接函数
+- 用法 : **char *strcat(char *destin, char *source)**;
 - 程序例 :
 ```
 #include <string.h>
@@ -59,12 +59,11 @@ int main(void)
 }
 ```
 
-### strchr
+### 4. strchr
 - 函数名 : ***strchr***
 - 功能 : 在一个串中查找给定字符的第一个匹配之处
 - 用法 : **char *strchr(char *str, char c)**;
 - 程序例 :
-
 ```
 #include <string.h>
 #include <stdio.h>
@@ -82,11 +81,11 @@ int main(void)
 }
 ```
 
-### strcmp
+### 5. strcmp
 - 函数名 : ***strcmp***
 - 功能 : 串比较看Asic码，str1 > str2，返回值 > 0；两串相等，返回0
-- 用法: **int strcmp(char *str1, char *str2)**;
-- 程序例:
+- 用法 : **int strcmp(char *str1, char *str2)**;
+- 程序例 :
 ```
 #include <string.h>
 #include <stdio.h>
@@ -107,8 +106,8 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strnicmp
+
+### 6. strnicmp
 - 函数名 : ***strnicmp***
 - 功能 : 将一个串中的一部分与另一个串比较, 不管大小写
 - 用法 : **int strnicmp(char *str1, char *str2, unsigned maxlen)**;
@@ -131,7 +130,7 @@ int main(void)
 }
 ```
 
-### strlen
+### 7. strlen
 - 函数名 : ***strlen***
 - 功能 : strlen函数求的是字符串的长度，它求得方法是从字符串的首地址开始到遇到第一个'\0'停止计数,如果你只定义没有给它赋初值，这个结果是不定的，它会从字符串首地址一直记下去，直到遇到'\0'才会停止。
 - 原型 : **size_t strlen(const char *s)**;
@@ -149,11 +148,11 @@ int main()
 }
 //运行结果：字符串长度为11
 ```
-　　
-### strcspn
-- 函数名 : strcspn
+
+### 8. strcspn
+- 函数名 : ***strcspn***
 - 功能 : 在串中查找第一个给定字符集内容的段
-- 用法 : int strcspn(char *str1, char *str2);
+- 用法 : **int strcspn(char *str1, char *str2)**;
 - 程序例 :
 ```
 #include <stdio.h>
@@ -169,12 +168,12 @@ int main(void)
     return 0;
 }
 ```
-　
-### strdup
-- 函数名 : strdup
+
+### 9. strdup
+- 函数名 : ***strdup***
 - 功能 : 将串拷贝到新建的位置处
-- 用法 : char *strdup(char *str);
-- 程序例:
+- 用法 : **char *strdup(char *str)**;
+- 程序例 :
 ```
 #include <stdio.h>
 #include <string.h>
@@ -188,11 +187,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### stricmp
-- 函数名 : stricmp
+
+### 10. stricmp
+- 函数名 : ***stricmp***
 - 功能 : 以大小写不敏感方式比较两个串
-- 用法 : int stricmp(char *str1, char *str2);
+- 用法 : **int stricmp(char *str1, char *str2)**;
 - 程序例 :
 ```
 #include <string.h>
@@ -211,12 +210,12 @@ int main(void)
     return 0;
 }
 ```
-　
-### strerror
-- 函数名 : strerror
+
+### 11. strerror
+- 函数名 : ***strerror***
 - 功能 : 返回指向错误信息字符串的指针
-- 用法: char *strerror(int errnum);
-- 程序例:
+- 用法 : **char *strerror(int errnum)**;
+- 程序例 :
 ```
 #include <stdio.h>
 #include <errno.h>
@@ -228,11 +227,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strcmpi
-- 函数名 : strcmpi
+
+### 12. strcmpi
+- 函数名 : ***strcmpi***
 - 功能 : 将一个串与另一个比较, 不管大小写
-- 用法 : int strcmpi(char *str1, char *str2);
+- 用法 : **int strcmpi(char *str1, char *str2)**;
 - 程序例 :
 ```
 #include <string.h>
@@ -251,11 +250,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strnicmp
-- 函数名 : strnicmp
+
+### 13. strnicmp
+- 函数名 : ***strnicmp***
 - 功能: 不注重大小写地比较两个串
-- 用法: int strnicmp(char *str1, char *str2, unsigned maxlen);
+- 用法: **int strnicmp(char *str1, char *str2, unsigned maxlen)**;
 - 程序例:
 ```
 #include <string.h>
@@ -274,11 +273,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-###strnset
-- 函数名 : strnset
+
+### 14. strnset
+- 函数名 : ***strnset***
 - 功能 : 将一个字符串前n个字符都设为指定字符
-- 用法 : char *strnset(char *str, char ch, unsigned n);
+- 用法 : **char *strnset(char *str, char ch, unsigned n)**;
 - 程序例 :
 ```
 #include <stdio.h>
@@ -294,10 +293,10 @@ int main(void)
 }
 ```
 
-### strpbrk
-- 函数名 : strpbrk
+### 15. strpbrk
+- 函数名 : ***strpbrk***
 - 功能 : 在串中查找给定字符集中的字符
-- 用法 : char *strpbrk(char *str1, char *str2);
+- 用法 : **char *strpbrk(char *str1, char *str2)**;
 - 程序例 :
 ```
 #include <stdio.h>
@@ -315,11 +314,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strrchr
-- 函数名: strrchr
+
+### 16. strrchr
+- 函数名: ***strrchr***
 - 功能: 在串中查找指定字符的最后一个出现
-- 用法: char *strrchr(char *str, char c);
+- 用法: **char *strrchr(char *str, char c)**;
 - 程序例:
 ```
 #include <string.h>
@@ -337,11 +336,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strrev
-- 函数名 : strrev
+
+### 17. strrev
+- 函数名 : ***strrev***
 - 功能 : 串倒转
-- 用法 : char *strrev(char *str);
+- 用法 : **char *strrev(char *str)**;
 - 程序例 :
 ```
 #include <string.h>
@@ -355,11 +354,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strset
-- 函数名 : strset
+
+### 18. strset
+- 函数名 : ***strset***
 - 功能: 将一个串中的所有字符都设为指定字符
-- 用法: char *strset(char *str, char c);
+- 用法: **char *strset(char *str, char c)**;
 - 程序例:
 ```
 #include <stdio.h>
@@ -374,12 +373,12 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strstr
-- 函数名: strstr
-- 功能: 在串中查找指定字符串的第一次出现
-- 用法: char *strstr(char *str1, char *str2);
-- 程序例:
+
+### 19. strstr
+- 函数名 : ***strstr***
+- 功能 : 在串中查找指定字符串的第一次出现
+- 用法 : **char *strstr(char *str1, char *str2)**;
+- 程序例 :
 ```
 #include <stdio.h>
 #include <string.h>
@@ -391,12 +390,12 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strtod
-- 函数名 : strtod
+
+### 20. strtod
+- 函数名 : ***strtod***
 - 功能 : 将字符串转换为double型值
-- 用法: double strtod(char *str, char **endptr);
-- 程序例:
+- 用法 : **double strtod(char *str, char **endptr)**;
+- 程序例 :
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -411,12 +410,12 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strtok
-- 函数名: strtok
-- 功能: 查找由在第二个串中指定的分界符分隔开的单词
-- 用法: char *strtok(char *str1, char *str2);
-- 程序例:
+
+### 21. strtok
+- 函数名 : ***strtok***
+- 功能 : 查找由在第二个串中指定的分界符分隔开的单词
+- 用法 : **char *strtok(char *str1, char *str2)**;
+- 程序例 :
 ```
 #include <string.h>
 #include <stdio.h>
@@ -436,11 +435,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strtol
-- 函数名 : strtol
+
+### 22. strtol
+- 函数名 : ***strtol***
 - 功能 : 将串转换为长整数
-- 用法 : long strtol(char *str, char **endptr, int base);
+- 用法 : **long strtol(char *str, char **endptr, int base)**;
 - 程序例 :
 ```
 #include <stdlib.h>
@@ -455,11 +454,11 @@ int main(void)
     return 0;
 }
 ```
-　　
-### strupr
-- 函数名 : strupr
+
+### 23. strupr
+- 函数名 : ***strupr***
 - 功能 : 将串中的小写字母转换为大写字母
-- 用法 : char *strupr(char *str);
+- 用法 : **char *strupr(char *str)**;
 - 程序例 :
 ```
 #include <stdio.h>
@@ -473,13 +472,12 @@ int main(void)
     return 0;
 }
 ```
-　　
-### swab
-- 函数名: swab
-- 功能: 交换字节
-- 用法: void swab (char *from, char *to, int nbytes);
-- 程序例:
 
+### 24. swab
+- 函数名: ***swab***
+- 功能: 交换字节
+- 用法: **void swab (char *from, char *to, int nbytes)**;
+- 程序例:
 ```
 #include <stdlib.h>
 #include <stdio.h>
