@@ -37,7 +37,7 @@ Daily Internet information Collection.
 - **Web开发者** : http://www.admin10000.com/
 
 ## C & c++	
-- **My C Notes** : https://github.com/finlay-liu/InfoRecord/tree/master/C-Notes
+- [**My C Notes**](https://github.com/finlay-liu/InfoRecord/tree/master/C-Notes)
 - **Cprogramming.com** : http://www.cprogramming.com/
 
 ## Java 
