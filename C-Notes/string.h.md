@@ -491,3 +491,5 @@ int main(void)
     return 0;
 }
 ```
+
+> 来源 ： http://www.cnblogs.com/xuwenmin888/archive/2013/05/03/3057883.html
