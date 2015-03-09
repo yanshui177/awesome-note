@@ -38,6 +38,7 @@ Daily Internet information Collection.
 
 ## C & c++	
 - [**My C Notes**](https://github.com/finlay-liu/InfoRecord/tree/master/C-Notes)
+- **Learn C The Hard Way** : http://c.learncodethehardway.org/book/index.html
 - **Cprogramming.com** : http://www.cprogramming.com/
 
 ## Java 
