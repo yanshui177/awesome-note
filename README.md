@@ -6,39 +6,12 @@ Daily Internet information Collection.
 
 # Link 
 
-## English IT Site
-
-### Code Box
+## IT Community
 - **Github** : https://github.com 
 - **Codeproject** : http://www.codeproject.com/
 - **SourceForge** : http://sourceforge.net/
 
-### IT Community
-- **Stack Overflow** : http://stackoverflow.com/ 
-- **InfoQ** : http://www.infoq.com/
-- **IBM developerWorks** : http://www.ibm.com/developerworks/
-
-## Chinese IT Site
-
-### 社区
-- **博客园** : http://www.cnblogs.com/
-- **CSDN** : http://www.csdn.net/
-- **51CTO** : http://www.51cto.com/
-- **ITeye** : http://www.iteye.com/
-- **开源中国** : http://www.oschina.net/
-- **SegmentFault** : http://segmentfault.com/
-
-### 信息站
-- **伯乐头条** : http://blog.jobbole.com/
-- **ZDNet** : http://www.zdnet.com.cn/
-- **Open-Open** : http://www.open-open.com/
-- **ITPUB** : http://www.itpub.net/
-- **图灵社区** : http://www.ituring.com.cn/
-- **AIX专家俱乐部** : http://www.aixchina.net/
-- **1999IT** : http://www.199it.com/
-- **Web开发者** : http://www.admin10000.com/
-
-## C & c++	
+## C & C++	
 - [**My C Notes**](https://github.com/finlay-liu/InfoRecord/tree/master/C-Notes)
 - **Learn C The Hard Way** : http://c.learncodethehardway.org/book/index.html
 - **Cprogramming.com** : http://www.cprogramming.com/
@@ -47,9 +20,6 @@ Daily Internet information Collection.
 - **Java Examples** : http://www.javased.com/
 - **ImportNew** : http://www.importnew.com/
 - **ProgramCreek** : http://www.programcreek.com/
-
-## Game
-- **GameDev.net** : http://www.gamedev.net/
 
 ## LaTeX 
 - **在线 LaTeX 公式编辑器** : http://www.codecogs.com/latex/eqneditor.php
@@ -76,4 +46,4 @@ Daily Internet information Collection.
 - **Scientific.Net** : http://www.scientific.net/
 
 # Books
-Link : https://github.com/finlay-liu/InfoRecord/blob/master/Books.md
+- Link : https://github.com/finlay-liu/InfoRecord/blob/master/Books.md
