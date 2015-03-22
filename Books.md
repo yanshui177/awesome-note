@@ -18,6 +18,6 @@ There are some books that I love.
 1. **Code Complete: A Practical Handbook of Software Construction** – June 19, 2004 by *Steve McConnell*
 
 ## Book that I plan to read
-1. **The Art of Computer Programming** – March 3, 2011 by *Donald E. Knuth*
+1. **The Art of Computer Programming** – by *Donald E. Knuth*
 2. **Compilers : Principles, Techniques, and Tools (2nd Edition)** – September 10, 2006 by *Alfred V. Aho etc.*
 3. **Understanding the Linux Kernel, Third Edition** – November, 2005 by *Daniel P. Bovet, Marco Cesati*
