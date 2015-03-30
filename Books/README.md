@@ -3,8 +3,9 @@ There are some books that I love.
 
 ## Book that I am reading now
 1. **C++ Primer Plus (6th Edition)** – by *Stephen Prata* 
-2. **Introduction to Algorithms (3rd Edition)** - by *Thomas H. Cormen and Charles E. Leiserson*
-3. **Cracking the Coding Interview, Fourth Edition** – by *Gayle Laakmann McDowell*
+2. **Data Structures and Algorithm Analysis in C(Second Edition)** - by Mark Allen Weiss
+3. **Introduction to Algorithms (3rd Edition)** - by *Thomas H. Cormen and Charles E. Leiserson*
+4. **Cracking the Coding Interview, Fourth Edition** – by *Gayle Laakmann McDowell*
 
 ## Book that I hava read
 ### C
