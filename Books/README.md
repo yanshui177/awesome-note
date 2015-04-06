@@ -7,7 +7,7 @@ There are some books that I love.
 3. **Introduction to Algorithms (3rd Edition)** - by *Thomas H. Cormen and Charles E. Leiserson*
 4. **Cracking the Coding Interview, Fourth Edition** – by *Gayle Laakmann McDowell*
 
-## Book that I hava read
+## Book that I have read
 ### C
 1. **The C Programming Language (2nd Edition)** - by *Brian W. Kernighan and Dennis M. Ritchie*
 
