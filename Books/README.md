@@ -3,9 +3,9 @@ There are some books that I love.
 
 ## Book that I am reading now
 1. **C++ Primer Plus (6th Edition)** – by *Stephen Prata* 
-2. **Data Structures and Algorithm Analysis in C(Second Edition)** - by Mark Allen Weiss
-3. **Introduction to Algorithms (3rd Edition)** - by *Thomas H. Cormen and Charles E. Leiserson*
-4. **Cracking the Coding Interview, Fourth Edition** – by *Gayle Laakmann McDowell*
+2. **Introduction to Algorithms (3rd Edition)** - by *Thomas H. Cormen and Charles E. Leiserson*
+3. **Cracking the Coding Interview, Fourth Edition** – by *Gayle Laakmann McDowell*
+4. **Introduction to Linear Algebra, Fourth Edition** - by *Gilbert Strang*
 
 ## Book that I have read
 ### C
@@ -17,6 +17,13 @@ There are some books that I love.
 
 ### Code Programme
 1. **Code Complete: A Practical Handbook of Software Construction** – by *Steve McConnell*
+
+### Data Structures and Algorithm
+1. **Data Structures and Algorithm Analysis in C(Second Edition)** - by *Mark Allen Weiss*
+
+### Others
+1. **数学之美** - by 吴军
+2. **浪潮之巅** - by 吴军
 
 ## Book that I plan to read
 1. **The Art of Computer Programming** – by *Donald E. Knuth*
